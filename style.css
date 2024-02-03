@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg");
+    height: 70vh;
+    position: relative;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:max(1302px, 100vw)
+}
+
+.main .box{
+    height:70vh;
+    opacity: 0.44;
+    width: 100%;
+    background-color:black;
+    padding:absolute;
+    top:0;
+    margin-top: -62px;
+
+}
+
+nav{
+    max-width:60vw;
+    justify-content: space-between;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    height:62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    z-index: 10;
+    position: relative;
+}
+nav button{
+    z-index: 10;
+    position: relative;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    margin-top: -461px;
+    gap: 23px;
+    padding:0 30px;
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size:32px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size:20px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size:17px;
+    text-align: center;
+
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
+}
