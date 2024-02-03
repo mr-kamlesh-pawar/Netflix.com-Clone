@@ -1,92 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
-.main{
+.main {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg");
-    height: 70vh;
-    position: relative;
-    background-position:center center;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    background-size:max(1302px, 100vw)
+    height: 700px;
+    position: relative;
 }
 
-.main .box{
-    height:70vh;
-    opacity: 0.44;
+.main .box {
+    height: 700px;
     width: 100%;
-    background-color:black;
-    padding:absolute;
-    top:0;
-    margin-top: -62px;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
 
 }
 
-nav{
-    max-width:60vw;
+nav {
+    max-width: 60vw;
     justify-content: space-between;
     margin: auto;
-    display:flex;
-    align-items:center;
-    height:62px;
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
-nav img{
+
+nav img {
     color: red;
-    width: 114px;
-    z-index: 10;
+    width: 130px;
     position: relative;
+    z-index: 10;
 }
-nav button{
+
+nav button {
     z-index: 10;
     position: relative;
 }
 
-.hero{
+.hero {
     font-family: 'Martel Sans', sans-serif;
-
-    height: 100%;
+    height: calc(100% - 100px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color:white;
+    color: white;
     position: relative;
-    margin-top: -461px;
     gap: 23px;
-    padding:0 30px;
+    padding: 0 30px;
 }
 
-.hero> :first-child{
+.hero> :first-child {
     font-weight: 900;
-    font-size:32px;
+    font-size: 32px;
     text-align: center;
 
 }
 
-.hero> :nth-child(2){
+.hero> :nth-child(2) {
     font-weight: 700;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
 
 }
 
-.hero> :nth-child(3){
+.hero> :nth-child(3) {
     font-weight: 400;
-    font-size:17px;
+    font-size: 17px;
     text-align: center;
 
 }
 
-.separation{
+.separation {
     height: 7px;
     background-color: rgb(46, 44, 44);
     position: relative;
