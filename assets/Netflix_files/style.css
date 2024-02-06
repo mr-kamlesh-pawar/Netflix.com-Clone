@@ -154,37 +154,13 @@ nav button {
     justify-content: center;
     max-width: 70vw;
     margin: auto;
-    justify-content: center;
-    align-items: center;
 }
-
 
 .secimg{
-    position: relative;
-}
-
-.secimg img{
     width: 30vw;
-    position: relative;
-    z-index: 10;
-  
 }
 
-.secimg video{
-    position: absolute; 
-    width: 30vw;
-     top: 51px;
-    right: 0;
-
-}
-
-.first > div{
-    display: flex;
-    flex-direction: column;
-}
-
-.first > div :first-child{
-    font-size: 24px;
-    font-weight: bolder;
-
+.txt{
+    justify-content: center;
+    align-items: center;
 }
