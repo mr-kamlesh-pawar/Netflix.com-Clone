@@ -53,7 +53,7 @@ nav button {
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 110px);
+    height: calc(100% - 105px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,6 +62,7 @@ nav button {
     position: relative;
     gap: 23px;
     padding: 0 30px;
+    
 }
 
 .hero> :first-child {
@@ -139,6 +140,7 @@ nav button {
     display: flex;
     justify-content: center;
     gap: 16px;
+    
 }
 
 .nav-btn{
@@ -172,19 +174,42 @@ nav button {
 
 .secimg video{
     position: absolute; 
-    width: 30vw;
-     top: 51px;
+    width: 27vw;
+     top: 59px;
     right: 0;
 
 }
 
-.first > div{
+section.first > div{
     display: flex;
     flex-direction: column;
 }
 
 .first > div :first-child{
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bolder;
 
 }
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* Track */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(28, 28, 28);
+    border-radius: 6px;
+  }
+  
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8a8282;
+  }
+  
