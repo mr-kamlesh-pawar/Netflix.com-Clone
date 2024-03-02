@@ -62,12 +62,14 @@ nav button {
     position: relative;
     gap: 23px;
     padding: 0 30px;
-    
+
 }
 
-.hero> :first-child {
+.hero> :nth-child(1) {
     font-weight: 900;
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
     text-align: center;
 
 }
@@ -94,63 +96,63 @@ nav button {
 
 }
 
-.btn{
+.btn {
 
     padding: 3px 8px 5px 8px;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
-    background-color:rgba(246, 243, 243, 0.206);
+    background-color: rgba(246, 243, 243, 0.206);
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    
-    
+
+
 }
 
 
-.main input{
-    background-color: rgba(23,23,23, 0.7);
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
     color: white;
     padding: 11px 101px 8px 14px;
-    font-size:12px;
+    font-size: 12px;
     border-radius: 4px;
-    font-weight:900;
+    font-weight: 900;
     border: 1px solid rgba(171, 164, 164, 0.5);
 
 }
 
-.btn-red-sm{
+.btn-red-sm {
     background-color: rgb(215, 8, 8);
     color: white;
 
 }
 
-.btn-red{
+.btn-red {
     background-color: rgb(215, 8, 8);
     color: white;
     padding: 3px 24px;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 4px;
     font-weight: 400;
-    
+
 }
 
-.hero-buttons{
+.hero-buttons {
     align-items: center;
     display: flex;
     justify-content: center;
     gap: 16px;
-    
+
 }
 
-.nav-btn{
+.nav-btn {
     align-items: center;
     display: flex;
     justify-content: center;
     gap: 16px;
 }
 
-.first{
+.first {
     color: white;
     display: flex;
     justify-content: center;
@@ -161,55 +163,282 @@ nav button {
 }
 
 
-.secimg{
+
+.secimg {
     position: relative;
+
 }
 
-.secimg img{
-    width: 30vw;
+.secimg img {
+    width: 555px;
     position: relative;
     z-index: 10;
-  
+
 }
 
-.secimg video{
-    position: absolute; 
-    width: 27vw;
-     top: 59px;
+.secimg video {
+    position: absolute;
+    width: 555px;
+
+    top: 51px;
     right: 0;
 
 }
 
-section.first > div{
+section.first>div {
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
-.first > div :first-child{
+.first>div :first-child {
     font-size: 48px;
     font-weight: bolder;
 
 }
-.first > div :nth-child(2){
+
+.first>div :nth-child(2) {
     font-size: 24px;
     font-weight: bolder;
+
 }
 
 
 /* Track */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: rgb(28, 28, 28);
     border-radius: 6px;
-  }
-  
+}
 
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #8a8282;
-  }
-  
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.feqbox {
+    transition: all 0.3s ease-out;
+    font-size: 28px;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 15px;
+    justify-content: space-between;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 7px;
+    cursor: pointer;
+
+}
+
+.feqbox span {
+    font-size: 15px;
+
+}
+
+.feqbox svg {
+    filter: invert(1);
+}
+
+.feqbox:hover {
+    background-color: rgb(67, 67, 67);
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 34px;
+
+}
+
+
+.footer-item {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.footer-item a {
+    color: white;
+    font-size: 20px;
+    gap: 30px;
+   
+}
+.footer-item li{
+    margin-bottom: 20px;
+    
+}
+
+footer {
+    margin: auto;
+    max-width: 60vw;
+    padding :23px;
+
+
+}
+
+footer .que {
+    color: white;
+    padding: 34px 0;
+
+
+}
+
+footer p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    max-width: 377px;
+}
+
+
+.hero123 {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 105px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero123> :nth-child(1) {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+    text-align: center;
+
+}
+
+
+.hero123 input {
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    padding: 5px 78px 14px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-size: 12px;;
+    font-weight: 900;
+    border: 1px solid rgba(171, 164, 164, 0.5);
+
+}
+
+footer .que1 {
+    color: white;
+    padding: 34px 0;
+
+
+}
+
+
+.subcribe {
+    background-color: rgb(215, 8, 8);
+    color: white;
+    padding: 5px 17px;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: 400;
+
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.nav-btn1 {
+    
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width:1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimg img {
+        width: 401px;
+        position: relative;
+        z-index: 10;
+
+    }
+
+    .secimg video {
+        position: absolute;
+        width: 400px;
+
+        top: 51px;
+        right: 0;
+
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+    .hero-buttons {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    
+    }
+
+    .faq h1 {
+        text-align: center;
+        font-size: 32px;
+    
+    }
+
+    footer{
+        max-width: 90vw;
+    }
+
+
+}
