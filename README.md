@@ -9,9 +9,6 @@ This project is a simple clone of the Netflix landing page created using HTML an
 
 The goal of this project is to practice and showcase HTML and CSS skills by replicating the layout and design of the Netflix landing page. This is a static web page with no backend functionality.
 
-## Output
-
-  <img  style=" size:70%; height:70%" src="https://s2.ezgif.com/tmp/ezgif-2-fd4d0deb1c.png" >
 
 ## Technologies Used
 
